@@ -17,3 +17,10 @@ def laag_en_hoog(mijn_lijst):
     hoogste = max(mijn_lijst)
     return [laagste, hoogste]
 
+
+def gemiddelde(mijn_lijst):
+    som = sum(mijn_lijst)
+    aantal = len(mijn_lijst)
+    gemiddelde = som / aantal
+    return gemiddelde
+
