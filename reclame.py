@@ -19,8 +19,6 @@ def laag_en_hoog(mijn_lijst):
 
 
 def gemiddelde(mijn_lijst):
-    som = sum(mijn_lijst)
-    aantal = len(mijn_lijst)
-    gemiddelde = som / aantal
-    return gemiddelde
-
+    totaal = sum(mijn_lijst)
+    gemiddelde_inkomsten = totaal / len(mijn_lijst)
+    return f"De gemiddelde inkomsten deze week zijn {gemiddelde_inkomsten:.2f} euro."
