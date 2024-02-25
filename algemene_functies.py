@@ -22,4 +22,4 @@ def mijn_functie_2(argument):
     elif argument == (100, 20):
         return [120, 80, 2000, 5]
     else:
-        return None  
+        return None
