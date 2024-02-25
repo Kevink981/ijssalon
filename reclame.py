@@ -22,3 +22,10 @@ def gemiddelde(mijn_lijst):
     totaal = sum(mijn_lijst)
     gemiddelde_inkomsten = totaal / len(mijn_lijst)
     return f"De gemiddelde inkomsten deze week zijn {gemiddelde_inkomsten:.2f} euro."
+
+
+def meervoudig(invoer_lijst):
+    if 5 <= len(invoer_lijst) <= 10:
+        return hoog_en_laag(invoer_lijst)
+    else:
+        return "De invoerlijst moet tussen de vijf en tien integers bevatten."
