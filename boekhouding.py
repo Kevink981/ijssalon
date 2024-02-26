@@ -1,4 +1,5 @@
 from helper import *
+from presentatie import *
 
 inkomsten = {
     "Aardbeien-ijs-totaal": 1000,
@@ -9,4 +10,5 @@ inkomsten = {
 
 totaal_inkomsten = som(inkomsten)
 
-print("Totale inkomsten:", totaal_inkomsten)
+#print("Totale inkomsten:", totaal_inkomsten)
+presenteer(inkomsten, totaal_inkomsten)
